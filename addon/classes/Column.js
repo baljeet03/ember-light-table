@@ -245,20 +245,20 @@ export default class Column extends EmberObject.extend({
   width: null,
 
   /**
-   * Class names to be applied to header and footer cells of this column
+   * Class name to be applied to header and footer cells of this column
    *
-   * @property classNames
-   * @type {String | Array}
+   * @property className
+   * @type {String}
    */
-  classNames: null,
+  className: '',
 
   /**
-   * Class names to be applied to all cells of this column
+   * Class name to be applied to all cells of this column
    *
-   * @property cellClassNames
-   * @type {String | Array}
+   * @property cellClassName
+   * @type {String}
    */
-  cellClassNames: null,
+  cellClassName: '',
 
   /**
    * A format function used to calculate a cell's value. This method will be passed

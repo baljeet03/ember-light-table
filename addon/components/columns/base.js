@@ -20,7 +20,7 @@ const Column = Component.extend(DraggableColumnMixin, {
   tagName: 'th',
   classNames: ['lt-column'],
   attributeBindings: ['style', 'colspan', 'rowspan'],
-  classNameBindings: ['align', 'isGroupColumn:lt-group-column', 'isHideable', 'isSortable', 'isSorted', 'isResizable', 'isResizing', 'isDraggable', 'column.classNames'],
+  classNameBindings: ['align', 'isGroupColumn:lt-group-column', 'isHideable', 'isSortable', 'isSorted', 'isResizable', 'isResizing', 'isDraggable', 'column.className'],
 
   isGroupColumn: computed.readOnly('column.isGroupColumn'),
   isSortable: computed.readOnly('column.sortable'),

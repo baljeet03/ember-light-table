@@ -18,7 +18,7 @@ const Cell = Component.extend({
   tagName: 'td',
   classNames: ['lt-cell'],
   attributeBindings: ['style'],
-  classNameBindings: ['align', 'isSorted', 'column.cellClassNames'],
+  classNameBindings: ['align', 'isSorted', 'column.cellClassName'],
 
   enableScaffolding: false,
 
